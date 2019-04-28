@@ -6,35 +6,35 @@
 
 * 首頁
 
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/homepage.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/homepage.png)
 
 * 新增留言
 
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_1.png)
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_2.png)
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_3.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/creat_1.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/creat_2.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/creat_3.png)
 
 * 編輯留言 
 
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/edit.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/edit.png)
 
 * 查看留言 
 
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/check.png) 
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/check.png) 
 
 * 刪除留言 
 
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/delete.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/delete.png)
 
 ## Features 
 
 * 使用 ASP.NET MVC
 
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/mvc.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/mvc.png)
 
 * 使用 Bootstrap Datetimepicker 選擇日期
 
-![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/datetimepicker.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/img/datetimepicker.png)
 
 使用 NuGet 安裝
 
