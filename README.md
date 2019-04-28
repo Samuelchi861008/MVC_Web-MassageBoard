@@ -25,3 +25,9 @@
 * 刪除留言 
 
 ![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/delete.png)
+
+## Features 
+
+* 使用 ASP.NET MVC
+
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/mvc.png)
