@@ -7,3 +7,9 @@
 * 首頁
 
 ![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/homepage.png)
+
+* 新增留言
+
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_1.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_2.png)
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_3.png)
