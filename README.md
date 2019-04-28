@@ -67,3 +67,39 @@
   });
 </script>
 ```
+
+## Use step 
+
+* Step 1 
+```bash
+$ git clone https://github.com/Samuelchi861008/MVC_Web-MassageBoard.git
+``` 
+
+* Step 2 
+```bash
+$ cd MVC_Web-MassageBoard
+``` 
+
+* Step 3 
+```
+Use 『 Visual Studio 』open project
+```
+
+* Step 4 
+```
+Use IIS run the project
+```
+
+## Reference 
+
+* Bootstrap Datetimepicker 用法
+
+https://ithelp.ithome.com.tw/articles/10188890 
+
+* Bootstrap Datetimepicker 官方API文件
+
+http://www.bootcss.com/p/bootstrap-datetimepicker/index.htm
+
+* ASP.NET MVC 查詢功能 
+
+https://dotblogs.com.tw/berrynote/2016/08/26/000310
