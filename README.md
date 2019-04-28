@@ -31,3 +31,7 @@
 * 使用 ASP.NET MVC
 
 ![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/mvc.png)
+
+* 使用 Bootstrap Datetimepicker 選擇日期
+
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/datetimepicker.png)
