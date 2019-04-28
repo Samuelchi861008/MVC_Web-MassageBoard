@@ -13,3 +13,15 @@
 ![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_1.png)
 ![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_2.png)
 ![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/creat_3.png)
+
+* 編輯留言 
+
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/edit.png)
+
+* 查看留言 
+
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/check.png) 
+
+* 刪除留言 
+
+![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/delete.png)
