@@ -35,3 +35,22 @@
 * 使用 Bootstrap Datetimepicker 選擇日期
 
 ![image](https://github.com/Samuelchi861008/MVC_Web-MassageBoard/blob/master/datetimepicker.png)
+
+使用 NuGet 安裝
+
+```
+> Install-Package Bootstrap.v3.Datetimepicker
+```
+```
+> Install-Package Bootstrap.v3.Datetimepicker.CSS
+```
+
+於程式 head 地方加入連結
+
+```HTML
+  <script type="text/javascript" src="/scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="/scripts/moment.min.js"></script>
+  <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/scripts/bootstrap-datetimepicker.js"></script>
+  <link rel="stylesheet" href="/Content/bootstrap-datetimepicker.css" />
+```
