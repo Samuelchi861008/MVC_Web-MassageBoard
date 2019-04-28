@@ -57,13 +57,13 @@
 
 使用 JQuary 調用
 
-```JQuary
+```javascript
 <script type="text/javascript">
-        /* 呼叫 datetimepicker */
-        $(function () {
-            $('#datepicker').datetimepicker({
-                format: "YYYY/MM/DD"
-            });
-        });
+  /* 呼叫 datetimepicker */
+  $(function () {
+    $('#datepicker').datetimepicker({
+      format: "YYYY/MM/DD"
+    });
+  });
 </script>
 ```
