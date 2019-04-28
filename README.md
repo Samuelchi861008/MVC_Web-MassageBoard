@@ -48,9 +48,22 @@
 於程式 head 地方加入連結
 
 ```HTML
-  <script type="text/javascript" src="/scripts/jquery.min.js"></script>
-  <script type="text/javascript" src="/scripts/moment.min.js"></script>
-  <script type="text/javascript" src="/scripts/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/scripts/bootstrap-datetimepicker.js"></script>
-  <link rel="stylesheet" href="/Content/bootstrap-datetimepicker.css" />
+  <script type="text/javascript" src="~/scripts/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="~/scripts/moment.min.js"></script>
+  <script type="text/javascript" src="~/scripts/bootstrap-datetimepicker.js"></script>
+  <link rel="stylesheet" href="~/Content/bootstrap-datetimepicker.css" />
+  <script type="text/javascript" src="~/scripts/bootstrap.min.js"></script>
+```
+
+使用 JQuary 調用
+
+```JQuary
+<script type="text/javascript">
+        /* 呼叫 datetimepicker */
+        $(function () {
+            $('#datepicker').datetimepicker({
+                format: "YYYY/MM/DD"
+            });
+        });
+</script>
 ```
