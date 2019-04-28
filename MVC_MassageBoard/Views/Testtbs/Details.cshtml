@@ -1,0 +1,41 @@
+﻿@model MVC_MassageBoard.Models.Testtb
+
+@{
+    ViewBag.Title = "查看";
+}
+
+<h2><b>@ViewBag.Title</b></h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.commet)
+        </dt>
+        
+        <dd>
+            @Html.DisplayFor(model => model.commet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink(" 編輯", "Edit", new { id = Model.user }, new { @class = "glyphicon glyphicon-pencil btn btn-success" })
+    @Html.ActionLink(" 回首頁", "Index", null, new { @class = "glyphicon glyphicon-home btn btn-info" })
+</p>

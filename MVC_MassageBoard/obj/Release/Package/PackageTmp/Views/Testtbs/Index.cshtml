@@ -1,0 +1,63 @@
+﻿@model IEnumerable<MVC_MassageBoard.Models.Testtb>
+
+@{
+    ViewBag.Title = "留言板";
+}
+
+<div class="jumbotron alert-warning">
+    @ViewBag.Title
+</div>
+
+<p>
+    @using (Html.BeginForm())
+    {
+        <p>
+            @Html.TextBox("searchString", null, new { @class = "form-control", @placeholder = "留言代碼、標題、內容", @style = "display:inline" })
+            <button type="submit" class="btn btn-primary" style="display:inline" id="searchBtn">
+                <span class="glyphicon glyphicon-search"></span> 搜尋
+            </button>
+        </p>
+    }
+</p>
+
+<table class="table table-hover table-bordered">
+    <tr>
+        <th>
+            <div class="glyphicon glyphicon-pushpin"></div>
+            @Html.DisplayNameFor(model => model.title)
+        </th>
+        <th>
+            <div class="glyphicon glyphicon-list"></div>
+            @Html.DisplayNameFor(model => model.commet)
+        </th>
+        <th>
+            <div class="glyphicon glyphicon-calendar"></div>
+            @Html.DisplayNameFor(model => model.date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.commet)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.date)
+        </td>
+        <td align="center">
+            @Html.ActionLink(" 編輯", "Edit", new { id = item.user}, new {@class = "glyphicon glyphicon-pencil btn btn-success" })
+            @Html.ActionLink(" 查看", "Details", new { id = item.user }, new { @class = "glyphicon glyphicon-eye-open btn btn-warning" })
+            @Html.ActionLink(" 刪除", "Delete", new { id = item.user }, new { @class = "glyphicon glyphicon-trash btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>
+
+<p>
+    @Html.ActionLink(" 新增留言", "Create", null , new { @class = "glyphicon glyphicon-plus btn btn-info" })
+</p>

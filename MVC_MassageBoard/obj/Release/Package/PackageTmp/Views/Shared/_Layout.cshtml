@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="~/scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="~/scripts/moment.min.js"></script>
+    <script type="text/javascript" src="~/scripts/bootstrap-datetimepicker.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap-datetimepicker.css" />
+    <!-- Title -->
+    <title>Samuel's Massage Board</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+
+    <style>
+        /* 設定 body 背景顏色 */
+        body {
+            background-color: rgb(226,205,188) !important;
+            /* 使用莫蘭迪色系 rgb(226,205,188) */
+        }
+
+        /* 設定 navbar 背景顏色 */
+        .navbar {
+            background-color: rgb(160,106,80) !important;
+            /* 使用莫蘭迪色系 rgb(160,106,80) */
+        }
+
+            /* 設定 navbar 最左邊標題的顏色、大小、粗體 */
+            .navbar .navbar-brand {
+                color: #fff !important;
+                font-size: 24px;
+                font-weight: bold;
+                /* 顏色:白色、大小:24pixel、粗細:粗體 */
+            }
+
+        /* 設定 jumbotron 背景顏色、文字顏色、大小、粗體*/
+        .alert-warning {
+            background-color: rgb(188,169,162) !important;
+            /* 背景使用莫蘭迪色系 rgb(188,169,162) */
+            color: #fff !important;
+            font-weight: bold;
+            font-size: 50px;
+            /* 文字顏色:白色、大小:50pixel、粗細:粗體 */
+        }
+
+        /* 表格頭部背景顏色、文字顏色、文字置中 */
+        .table th {
+            background-color: rgb(49,36,28) !important;
+            color: #fff !important;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            $('#datepicker').datetimepicker({
+                format: "YYYY/MM/DD"
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <!-- navbar 最左邊標題 -->
+                @Html.ActionLink("Samuel's Massage Board", "Index", "Testtbs", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <footer style="width:100%; height: 20px; position:relative; bottom:0px; left:0%">
+            <!-- footer copyright -->
+            <a href="https://github.com/Samuelchi861008" target="_blank" style="text-decoration:none;"><font color="#fcfcfc" size="1">Copyright &copy; 2019 Samuel Chi All rights reserved.</font></a>
+        </footer>
+    </div>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
